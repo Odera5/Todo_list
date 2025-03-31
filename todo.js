@@ -28,6 +28,7 @@ let count = 0;
 function createTodo() {
   if (input1.value == "") {
     event.preventDefault();
+    input1.focus();
   } else {
     const todoContainer = document.createElement("div");
     todoContainer.classList.add("todoContainer");
