@@ -1,12 +1,3 @@
-/*class Todo {
-  constructor(title, description, dueDate, note) {
-    this.title = title;
-    this.description = description;
-    this.dueDate = dueDate;
-    this.note = note;
-  }
-}*/
-
 const main = document.getElementById("main");
 const inputContainer = document.createElement("div");
 inputContainer.classList.add("inputContainer");
@@ -33,8 +24,6 @@ function createTodo() {
     const todoContainer = document.createElement("div");
     todoContainer.classList.add("todoContainer");
     main.appendChild(todoContainer);
-    //todoContainer.textContent = input1.value;
-    // todoContainer.contentEditable = "true";
 
     const todoList = document.createElement("p");
     todoList.classList.add("todoList");
@@ -93,18 +82,12 @@ function createTodo() {
       } else if (count > 0) {
         count = count;
       }
-      console.log(count);
-      /*showProgress.textContent = `Yayy! you have completed ${count} task. `;
-    setTimeout(() => {
-      showProgress.textContent = "";
-    }, 3000);*/
     });
 
     radio.addEventListener(
       "click",
       () => {
         count++;
-        console.log(count);
         BtnContainer.removeChild(editBtn);
         todoList.style.textDecoration = "line-through";
 
