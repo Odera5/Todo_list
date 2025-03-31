@@ -1,0 +1,200 @@
+#header {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+}
+#img {
+  width: 50px;
+}
+
+.input1 {
+  border: none;
+  background-color: aliceblue;
+  height: 35px;
+  border-radius: 20px;
+  width: 400px;
+  padding: 0px 10px;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+.input1:focus {
+  outline: 1px solid rgb(83, 195, 236);
+}
+
+.inputContainer {
+  display: flex;
+  position: relative;
+}
+.showProgress {
+  font-family: sans-serif;
+}
+.todoContainer {
+  background-color: aliceblue;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 420px;
+  padding: 20px 10px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: none;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+.todoList {
+  background-color: aliceblue;
+  position: relative;
+  border: none;
+  max-height: 50px;
+  outline: none;
+  width: 350px;
+  margin-left: 0px;
+  font-family: sans-serif;
+  overflow-wrap: break-word;
+}
+
+.editBtn {
+  padding: 10px;
+  position: relative;
+  height: 20px;
+  border: none;
+}
+.checkBtn {
+  padding: 10px;
+  position: relative;
+  width: 10px;
+  border: none;
+}
+.deleteBtn {
+  background-image: url(./trash-can-outline.svg);
+  padding: 10px;
+  position: relative;
+
+  height: 20px;
+  border: none;
+}
+.addBtn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  top: -1px;
+  left: -31px;
+  background-color: rgb(39, 207, 39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500px;
+  outline: none;
+}
+body {
+  background-color: rgb(17, 182, 203);
+  display: flex;
+  justify-content: center;
+}
+#main {
+  background-color: white;
+  width: 500px;
+  margin-top: 100px;
+  position: relative;
+  min-height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px grey;
+}
+
+#time {
+  margin-top: 0px;
+}
+#date {
+  margin-bottom: 0px;
+}
+#dateTime {
+  margin-left: 350px;
+  font-family: sans-serif;
+}
+
+@media (max-width: 340px) {
+  #main {
+    background-color: white;
+    width: 250px;
+    margin-top: 100px;
+    position: relative;
+    min-height: 200px;
+    padding: 10px 10px 30px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px grey;
+  }
+  #dateTime {
+    margin-left: 120px;
+    font-family: sans-serif;
+  }
+  #header {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+  }
+  .input1 {
+    border: none;
+    background-color: aliceblue;
+    height: 35px;
+    border-radius: 20px;
+    width: 220px;
+    padding: 0px 10px;
+    font-family: sans-serif;
+    margin-left: 0px;
+  }
+
+  .todoContainer {
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 220px;
+    padding: 20px 10px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+  }
+  .todoList {
+    background-color: aliceblue;
+    position: relative;
+    border: none;
+    max-height: 50px;
+    outline: none;
+    width: 200px;
+    margin-left: 0px;
+    font-family: sans-serif;
+    overflow-wrap: break-word;
+  }
+  .editBtn {
+    padding: 10px;
+    position: relative;
+    height: 10px;
+    border: none;
+  }
+
+  .deleteBtn {
+    background-image: url(./trash-can-outline.svg);
+    padding: 10px;
+    position: relative;
+
+    height: 5px;
+    border: none;
+  }
+  .BtnContainer {
+    border: none;
+    padding: 2px;
+    display: flex;
+    width: 30px;
+  }
+}
