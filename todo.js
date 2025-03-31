@@ -17,7 +17,7 @@ main.appendChild(showProgress);
 
 let count = 0;
 function createTodo() {
-  if (input1.value == "") {
+  if (input1.value.trim() == "") {
     event.preventDefault();
     input1.focus();
   } else {
