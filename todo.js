@@ -103,6 +103,7 @@ function createTodo() {
       console.log(count);
       BtnContainer.removeChild(editBtn);
       todoList.style.textDecoration = "line-through";
+
       showProgress.textContent = `Yayy! you have completed ${count} task. grab your self some shawarma `;
       setTimeout(() => {
         showProgress.textContent = "";
