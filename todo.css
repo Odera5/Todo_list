@@ -119,7 +119,7 @@ body {
   font-family: sans-serif;
 }
 
-@media (max-width: 395px) {
+@media (max-width: 540px) {
   #main {
     background-color: white;
     width: 320px;
